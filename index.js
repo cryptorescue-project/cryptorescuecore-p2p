@@ -1,4 +1,4 @@
-var ravencore = require('ravencore-lib');
-ravencore.P2P = require('./lib');
+var cryptorescuecore = require('cryptorescuecore-lib');
+cryptorescuecore.P2P = require('./lib');
 
-module.exports = ravencore.P2P;
+module.exports = cryptorescuecore.P2P;

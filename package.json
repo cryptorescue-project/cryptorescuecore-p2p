@@ -1,7 +1,7 @@
 {
-  "name": "ravencore-p2p",
+  "name": "cryptorescuecore-p2p",
   "version": "1.1.2",
-  "description": "Interface to the ravencoin P2P network for ravencore",
+  "description": "Interface to the cryptorescue P2P network for cryptorescuecore",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -48,21 +48,21 @@
     }
   ],
   "keywords": [
-    "ravencoin",
-    "ravencore"
+    "cryptorescue",
+    "cryptorescuecore"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/underdarkskies/ravencore-p2p.git"
+    "url": "https://github.com/cryptorescue-project/cryptorescuecore-p2p.git"
   },
   "dependencies": {
-    "ravencore-lib": "underdarkskies/ravencore-lib",
+    "cryptorescuecore-lib": "cryptorescue-project/cryptorescuecore-lib",
     "bloom-filter": "^0.2.0",
-    "buffers": "underdarkskies/node-buffers#v0.1.2-underdarkskies",
+    "buffers": "cryptorescue-project/node-buffers",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
-    "ravencore-build": "underdarkskies/ravencore-build",
+    "cryptorescuecore-build": "cryptorescue-project/cryptorescuecore-build",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",

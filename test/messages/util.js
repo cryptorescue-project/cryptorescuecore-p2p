@@ -4,8 +4,8 @@
 
 var should = require('chai').should();
 var utils = require('../../lib/messages/utils');
-var ravencore = require('ravencore-lib');
-var BufferReader = ravencore.encoding.BufferReader;
+var cryptorescuecore = require('cryptorescuecore-lib');
+var BufferReader = cryptorescuecore.encoding.BufferReader;
 
 describe('Message Utils', function() {
 
