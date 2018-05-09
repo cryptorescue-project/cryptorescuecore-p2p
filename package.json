@@ -58,7 +58,7 @@
   "dependencies": {
     "cryptorescuecore-lib": "cryptorescue-project/cryptorescuecore-lib",
     "bloom-filter": "^0.2.0",
-    "buffers": "cryptorescue-project/node-buffers",
+    "buffers": "cryptorescue-project/node-buffers#v0.1.2-cryptorescue-project",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
